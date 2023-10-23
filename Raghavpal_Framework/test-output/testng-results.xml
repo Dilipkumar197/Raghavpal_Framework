@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-17T10:00:43 IST" name="Default suite" finished-at="2023-10-17T10:02:03 IST" duration-ms="79395">
+    <groups>
+    </groups>
+    <test started-at="2023-10-17T10:00:43 IST" name="Default test" finished-at="2023-10-17T10:02:03 IST" duration-ms="79395">
+      <class name="Utilis.Exceldataprovider">
+        <test-method is-config="true" signature="setuptest()[pri:0, instance:Utilis.Exceldataprovider@16293aa2]" started-at="2023-10-17T10:00:43 IST" name="setuptest" finished-at="2023-10-17T10:01:14 IST" duration-ms="30471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuptest -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:Utilis.Exceldataprovider@16293aa2]" started-at="2023-10-17T10:01:25 IST" name="test1" data-provider="test1data" finished-at="2023-10-17T10:02:03 IST" duration-ms="37533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Utilis.Exceldataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
